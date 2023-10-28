@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01- RabbitMQ.Client", "01- 
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02- EasyNetQ", "02- EasyNetQ", "{68C02BF8-C179-463E-9564-72963C770AF0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyNetQ.Console", "EasyNetQ.Console\EasyNetQ.Console.csproj", "{ABBF8F37-B472-422C-8057-BFCD8E885F6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +21,17 @@ Global
 		{DE9D1C94-8FF3-40E9-8F5D-11966C2FDF48}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DE9D1C94-8FF3-40E9-8F5D-11966C2FDF48}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DE9D1C94-8FF3-40E9-8F5D-11966C2FDF48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABBF8F37-B472-422C-8057-BFCD8E885F6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABBF8F37-B472-422C-8057-BFCD8E885F6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABBF8F37-B472-422C-8057-BFCD8E885F6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABBF8F37-B472-422C-8057-BFCD8E885F6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{DE9D1C94-8FF3-40E9-8F5D-11966C2FDF48} = {AAEF5FFA-5D7E-4AFA-863C-28EA0FD4FD71}
+		{ABBF8F37-B472-422C-8057-BFCD8E885F6A} = {68C02BF8-C179-463E-9564-72963C770AF0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8D18C441-F167-4447-8CE9-6C0C7DC83F3F}
